@@ -1,6 +1,6 @@
 # Analyse
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td></td><td align="center">//Nbtinfo</td><td align="center"></td></tr><tr><td></td><td align="center">//chunkinfo</td><td align="center"></td></tr><tr><td></td><td align="center">//distr</td><td align="center"><code>//distr [-c] [-d] [-p &#x3C;page>]</code></td></tr><tr><td></td><td align="center">//count</td><td align="center"></td></tr><tr><td></td><td align="center">//size</td><td align="center"><code>//size [-c]</code></td></tr><tr><td></td><td align="center"></td><td align="center"></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td></td><td align="center">//Nbtinfo</td><td align="center"></td></tr><tr><td></td><td align="center">//chunkinfo</td><td align="center"></td></tr><tr><td></td><td align="center">//distr</td><td align="center"><code>//distr [-c] [-d] [-p &#x3C;page>]</code></td></tr><tr><td></td><td align="center">//count</td><td align="center"></td></tr><tr><td></td><td align="center">//size</td><td align="center"><code>//size [-c]</code></td></tr></tbody></table>
 
 ## Nbtinfo
 
