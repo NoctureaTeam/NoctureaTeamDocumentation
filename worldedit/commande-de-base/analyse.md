@@ -12,8 +12,7 @@
 ### Chunkinfo
 
 * Affiche les informations sur le [Tronçons](https://minecraft.fandom.com/fr/wiki/Tron%C3%A7on) dans lequel vous êtes.
-* Utilisation : `//chunkinfo`
-* Exemple visuel : `le coffre contient une pierre`
+* Utilisation : `//chunkinfo`&#x20;
 
 <figure><img src="../../.gitbook/assets/Group 137.png" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +28,7 @@
 * Affiche le nombre de [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) d'un certain type dans votre sélection.
 * Utilisation : `//count <block>`
 
-<figure><img src="../../.gitbook/assets/Group 13d7.png" alt=""><figcaption><p>Exemple visuel : <code>count</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 13d7.png" alt=""><figcaption></figcaption></figure>
 
 ### Size
 
