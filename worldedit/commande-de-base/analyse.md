@@ -14,21 +14,21 @@
 * Affiche les informations sur le [Tronçons](https://minecraft.fandom.com/fr/wiki/Tron%C3%A7on) dans lequel vous êtes.
 * Utilisation : `//chunkinfo`&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 137.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/chunkinfo.png" alt=""><figcaption></figcaption></figure>
 
 ### Distr
 
 * Affiche la distribution des [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) dans la sélection avec le pourcentage de distribution, le nombre et le nom du bloc traduit dans votre langue de jeu.
 * Utilisation : `//distr` ou `//distr [-c] [-d] [-p <page>]`
 
-<figure><img src="../../.gitbook/assets/Group z137.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/distr.png" alt=""><figcaption></figcaption></figure>
 
 ### Count
 
 * Affiche le nombre de [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) d'un certain type dans votre sélection.
 * Utilisation : `//count <block>`
 
-<figure><img src="../../.gitbook/assets/Group 13d7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/count.png" alt=""><figcaption></figcaption></figure>
 
 ### Size
 
@@ -36,4 +36,4 @@
 * Utilisation : `//size [-c]`
 * Exemples visuels : Analyse d'une sélection, Analyse d'un clipboard, Analyse d'un schématics
 
-<figure><img src="../../.gitbook/assets/Group 138.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/size.png" alt=""><figcaption></figcaption></figure>
