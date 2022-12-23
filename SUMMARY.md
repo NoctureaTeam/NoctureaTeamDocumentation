@@ -3,8 +3,8 @@
 ## 👋 INTRODUCTION
 
 * [🌫 Nocutea Team](README.md)
-* [⁉ Pourquoi le site](introduction/pourquoi-le-site.md)
-* [🤝 Mise a jours et aide](introduction/mise-a-jours-et-aide.md)
+* [⁉ Pourquoi](introduction/pourquoi.md)
+* [🤝 MAJ & Contribution](introduction/maj-and-contribution.md)
 * [💟 Nous soutenir](introduction/nous-soutenir.md)
 
 ## ⭐ FastAsyncWorldEdit
