@@ -13,7 +13,7 @@
 * [Commande de base](fastasyncworldedit/commande-de-base/README.md)
   * [Analyse](fastasyncworldedit/commande-de-base/analyse.md)
   * [Biome](fastasyncworldedit/commande-de-base/biome.md)
-  * [Brosses](fastasyncworldedit/commande-de-base/brosses.md)
+  * [Pinceaux](fastasyncworldedit/commande-de-base/pinceaux.md)
   * [Géométrie](fastasyncworldedit/commande-de-base/geometrie.md)
   * [Commandes et autorisations principales](fastasyncworldedit/commande-de-base/commandes-et-autorisations-principales.md)
   * [Nature](fastasyncworldedit/commande-de-base/nature.md)
