@@ -12,3 +12,4 @@
 * [Introduction](worldedit/introduction.md)
 * [Commande de base](worldedit/commande-de-base/README.md)
   * [Analyse](worldedit/commande-de-base/analyse.md)
+  * [Biome](worldedit/commande-de-base/biome.md)

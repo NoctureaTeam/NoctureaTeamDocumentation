@@ -6,39 +6,38 @@ Raccourcie
 
 ## Nbtinfo
 
-* Affiche les informations [NBT](https://minecraft.fandom.com/fr/wiki/Format\_NBT) de la cible exemple [Coffre](https://minecraft.fandom.com/fr/wiki/Coffre) ou  [Fourneau](https://minecraft.fandom.com/fr/wiki/Fourneau) dans votre [viseur](https://minecraft.fandom.com/fr/wiki/Interface\_utilisateur#La\_croix) sous forme de chaîne de caractères lisible (texte brut).&#x20;
+* La commande `Nbtinfo` affiche les informations NBT pour le bloc cible dans votre viseur sous forme de chaîne lisible par l'utilisateur (texte brut). Le format "Named Binary Tag" (NBT) est utilisé pour stocker les données dans une structure en arbre composée de différents tags dans Minecraft. Pour plus d'informations sur le format NBT, [cliquez ici](https://minecraft.fandom.com/fr/wiki/Format\_NBT).
 * L'utilisation : `//nbtinfo`
 
-<figure><img src="../../.gitbook/assets/nbtinfo.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/nbtinfo.jpg" alt=""><figcaption><p><code>//nbtinfo</code></p></figcaption></figure>
 
 ## Chunkinfo
 
-* Affiche les informations sur le [Tronçons](https://minecraft.fandom.com/fr/wiki/Tron%C3%A7on) dans lequel vous êtes.
+* La commande `Chunkinfo` vous donne des informations sur le chunk dans lequel vous vous trouvez. La première ligne affiche les coordonnées X et Z de votre chunk. Les deux autres lignes affichent les noms des fichiers de chunk. Pour plus d'informations sur le format de fichier de région, [cliquez ici](https://minecraft.fandom.com/fr/wiki/Tron%C3%A7on). En appuyant sur F3+G, vous pouvez voir la bordure du chunk.
 * Utilisation : `//chunkinfo`
 
-<figure><img src="../../.gitbook/assets/chunkinfo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/chunkinfo (1).png" alt=""><figcaption><p><code>//chunkinfo</code></p></figcaption></figure>
 
 ## Distr
 
-* Affiche la distribution des [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) dans la sélection avec le pourcentage de distribution, le nombre et le nom du bloc traduit dans votre langue de jeu.
+* La commande `Distr` récupère la distribution des blocs dans la sélection (image 1) avec la distribution en pourcentage, le nombre et le nom de ce bloc traduit dans votre langue de client Minecraft. Vous pouvez analyser la distribution de blocs de votre presse-papiers (par exemple, après une commande //copy) au lieu de votre sélection en utilisant le drapeau -c. Avec le drapeau -d, la liste de blocs séparera tous les blocs ayant des valeurs de blocs différentes (image 2). En passant la souris sur les noms de bloc, vous verrez les noms techniques (par exemple, "<mark style="color:blue;">ajouter</mark>") et, avec l'utilisation du drapeau -d, les valeurs de bloc en crochet également (image 2). Avec le drapeau optionnel -p et un numéro de côté, vous pouvez passer d'un côté de la liste à l'autre.
 * Utilisation : `//distr` ou `//distr [-c] [-d] [-p <page>]`
 
-<figure><img src="../../.gitbook/assets/distr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/distr.png" alt=""><figcaption><p><code>image n°1</code></p></figcaption></figure>
 
 ## Count
 
-* Affiche le nombre de [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) d'un certain type dans votre sélection.
+* La commande `Count` vous donne le nombre de blocs d'un certain type dans votre sélection. Vous pouvez rechercher un bloc avec une valeur de bloc spécifiée en utilisant des crochets (par exemple, `stripped_dark_oak_log` ).
 * Utilisation : `//count <block>`
 
-<figure><img src="../../.gitbook/assets/count.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/count.png" alt=""><figcaption><p><code>//count</code></p></figcaption></figure>
 
 ## Size
 
-* Affiche différentes mesures et autres informations sur votre sélection.
+* La commande `Size` vous donne différentes mesures et autres informations sur votre sélection. Vous pouvez analyser les mesures de bloc de votre presse-papiers / schématique (par exemple, après une commande //copy) au lieu de votre sélection en utilisant le drapeau -c. En analysant une sélection, vous obtiendrez le type de sélection, des informations spécifiques au type, la taille maximale de la longueur, de la hauteur et de la largeur, la distance diagonale en longueur de bloc et le nombre de blocs (avec AIR). En analysant un presse-
 * Utilisation : `//size [-c]`
-* Exemples visuels : Analyse d'une sélection, Analyse d'un clipboard, Analyse d'un schématics
 
-<figure><img src="../../.gitbook/assets/size (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/size (1).png" alt=""><figcaption><p><code>//size</code></p></figcaption></figure>
 
 ### Analyzing a clipboard <a href="#_analyzing_a_clipboard" id="_analyzing_a_clipboard"></a>
 
@@ -51,7 +50,7 @@ Raccourcie
 * position de votre copie (important pour l'offset du schématique),&#x20;
 * nombre de blocs (avec AIR).
 
-<figure><img src="../../.gitbook/assets/clipboard analyse.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/clipboard analyse.png" alt=""><figcaption><p><code>//size -c</code></p></figcaption></figure>
 
 ### Analyzing a schematic <a href="#_analyzing_a_schematic" id="_analyzing_a_schematic"></a>
 
@@ -64,10 +63,8 @@ Raccourcie
 * offset du schématique (distance entre un coin et votre position de sauvegarde)
 * nombre de blocs (avec AIR)
 
-<figure><img src="../../.gitbook/assets/schematic analyse.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/schematic analyse.png" alt=""><figcaption><p><code>//size -c</code></p></figcaption></figure>
 
 {% hint style="info" %}
-le lien vers le site pour analyse \[[ici](https://intellectualsites.github.io/fastasyncworldedit-documentation/basic-commands/analysis.html)]&#x20;
+Le lien vers le site officiel de [fastasyncworldedit](https://intellectualsites.github.io/fastasyncworldedit-documentation/basic-commands/analysis.html)&#x20;
 {% endhint %}
