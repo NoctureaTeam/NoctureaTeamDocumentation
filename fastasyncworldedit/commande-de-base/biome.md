@@ -41,9 +41,9 @@ Les biomes sont indépendants de l'axe Y dans les versions _avant_ 1.16. A parti
 
 * Utilisation : `//setbiome <biome> [-p]`
 
-<figure><img src="../../.gitbook/assets/setbiome.png" alt=""><figcaption><p><code>//setbiome &#x3C;biome></code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/setbiome.png" alt=""><figcaption><p>Image n°1 <code>//setbiome &#x3C;biome></code></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/setbiome -p.png" alt=""><figcaption><p><code>//setbiome &#x3C;biome> -p</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/setbiome -p.png" alt=""><figcaption><p> Image n°2 <code>//setbiome &#x3C;biome> -p</code></p></figcaption></figure>
 
 {% embed url="https://intellectualsites.github.io/fastasyncworldedit-documentation/basic-commands/biomes.html" %}
 site original

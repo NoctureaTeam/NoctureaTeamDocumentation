@@ -23,7 +23,7 @@ Raccourcie
 * La commande `Distr` récupère la distribution des blocs dans la sélection (image 1) avec la distribution en pourcentage, le nombre et le nom de ce bloc traduit dans votre langue de client Minecraft. Vous pouvez analyser la distribution de blocs de votre presse-papiers (par exemple, après une commande //copy) au lieu de votre sélection en utilisant le drapeau -c. Avec le drapeau -d, la liste de blocs séparera tous les blocs ayant des valeurs de blocs différentes (image 2). En passant la souris sur les noms de bloc, vous verrez les noms techniques (par exemple, "<mark style="color:blue;">ajouter</mark>") et, avec l'utilisation du drapeau -d, les valeurs de bloc en crochet également (image 2). Avec le drapeau optionnel -p et un numéro de côté, vous pouvez passer d'un côté de la liste à l'autre.
 * Utilisation : `//distr` ou `//distr [-c] [-d] [-p <page>]`
 
-<figure><img src="../../.gitbook/assets/distr.png" alt=""><figcaption><p><code>image n°1</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/distr.png" alt=""><figcaption><p>Image n°1 <code>//distr</code></p></figcaption></figure>
 
 ## Count
 
