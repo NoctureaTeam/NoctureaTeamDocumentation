@@ -65,6 +65,6 @@ Raccourcie
 
 <figure><img src="../../.gitbook/assets/schematic analyse.png" alt=""><figcaption><p><code>//size -c</code></p></figcaption></figure>
 
-{% hint style="info" %}
-Le lien vers le site officiel de [fastasyncworldedit](https://intellectualsites.github.io/fastasyncworldedit-documentation/basic-commands/analysis.html)&#x20;
-{% endhint %}
+{% embed url="https://intellectualsites.github.io/fastasyncworldedit-documentation/basic-commands/analysis.html" %}
+`site original`
+{% endembed %}
