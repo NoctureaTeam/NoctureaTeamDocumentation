@@ -37,3 +37,35 @@
 * Exemples visuels : Analyse d'une sélection, Analyse d'un clipboard, Analyse d'un schématics
 
 <figure><img src="../../.gitbook/assets/size.png" alt=""><figcaption></figcaption></figure>
+
+### Analyser un clipboard
+
+*   Utilisation : `//size -c`
+
+
+* numéro de la liste de clipboard,&#x20;
+* dimensions d'un cuboïde en longueur,&#x20;
+* hauteur et largeur,&#x20;
+* position de votre copie (important pour l'offset du schématique),&#x20;
+* nombre de blocs (avec AIR).
+
+<figure><img src="../../.gitbook/assets/clipboard analyse.png" alt=""><figcaption></figcaption></figure>
+
+### Analyser un schématique
+
+*   Utilisation : `//size -c`
+
+
+* nom du schématique
+* dimensions d'un cuboïde en longueur
+* hauteur et largeur
+* offset du schématique (distance entre un coin et votre position de sauvegarde)
+* nombre de blocs (avec AIR)
+
+<figure><img src="../../.gitbook/assets/schematic analyse.png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% hint style="info" %}
+le lien vers le site pour analyse \[[ici](https://intellectualsites.github.io/fastasyncworldedit-documentation/basic-commands/analysis.html)]&#x20;
+{% endhint %}
