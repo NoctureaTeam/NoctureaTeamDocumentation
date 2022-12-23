@@ -1,6 +1,6 @@
 # Analyse
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td></td><td align="center">//Nbtinfo</td><td align="center"></td></tr><tr><td></td><td align="center">//chunkinfo</td><td align="center"></td></tr><tr><td></td><td align="center">//distr</td><td align="center"><code>//distr [-c] [-d] [-p &#x3C;page>]</code></td></tr><tr><td></td><td align="center">//count</td><td align="center"></td></tr><tr><td></td><td align="center">//size</td><td align="center"><code>//size [-c]</code></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center">//Nbtinfo</td><td align="center"><code>//nbtinfo</code></td><td align="center"><p></p><p>Information conteneur</p></td></tr><tr><td align="center">//chunkinfo</td><td align="center"><code>//chunkinfo</code></td><td align="center"><p></p><p>Info par chunk</p></td></tr><tr><td align="center">//distr</td><td align="center"><code>//distr [-c] [-d] [-p &#x3C;page>]</code></td><td align="center">Distribution de bloc</td></tr><tr><td align="center">//count</td><td align="center"><code>//count &#x3C;block></code></td><td align="center">Compte</td></tr><tr><td align="center">//size</td><td align="center"><code>//size [-c]</code></td><td align="center">Mesure </td></tr></tbody></table>
 
 ## Nbtinfo
 
@@ -12,7 +12,7 @@
 ### Chunkinfo
 
 * Affiche les informations sur le [Tronçons](https://minecraft.fandom.com/fr/wiki/Tron%C3%A7on) dans lequel vous êtes.
-* Utilisation : `//chunkinfo`&#x20;
+* Utilisation : `//chunkinfo`
 
 <figure><img src="../../.gitbook/assets/chunkinfo.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +36,7 @@
 * Utilisation : `//size [-c]`
 * Exemples visuels : Analyse d'une sélection, Analyse d'un clipboard, Analyse d'un schématics
 
-<figure><img src="../../.gitbook/assets/size.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/size (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Analyser un clipboard
 
