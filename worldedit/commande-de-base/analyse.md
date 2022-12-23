@@ -1,5 +1,7 @@
 # Analyse
 
+Raccourcie
+
 <table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center">//Nbtinfo</td><td align="center"><code>//nbtinfo</code></td><td align="center"><p></p><p>Information conteneur</p></td></tr><tr><td align="center">//chunkinfo</td><td align="center"><code>//chunkinfo</code></td><td align="center"><p></p><p>Info par chunk</p></td></tr><tr><td align="center">//distr</td><td align="center"><code>//distr [-c] [-d] [-p &#x3C;page>]</code></td><td align="center">Distribution de bloc</td></tr><tr><td align="center">//count</td><td align="center"><code>//count &#x3C;block></code></td><td align="center">Compte</td></tr><tr><td align="center">//size</td><td align="center"><code>//size [-c]</code></td><td align="center">Mesure </td></tr></tbody></table>
 
 ## Nbtinfo
@@ -9,28 +11,28 @@
 
 <figure><img src="../../.gitbook/assets/nbtinfo.jpg" alt=""><figcaption></figcaption></figure>
 
-### Chunkinfo
+## Chunkinfo
 
 * Affiche les informations sur le [Tronçons](https://minecraft.fandom.com/fr/wiki/Tron%C3%A7on) dans lequel vous êtes.
 * Utilisation : `//chunkinfo`
 
 <figure><img src="../../.gitbook/assets/chunkinfo.png" alt=""><figcaption></figcaption></figure>
 
-### Distr
+## Distr
 
 * Affiche la distribution des [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) dans la sélection avec le pourcentage de distribution, le nombre et le nom du bloc traduit dans votre langue de jeu.
 * Utilisation : `//distr` ou `//distr [-c] [-d] [-p <page>]`
 
 <figure><img src="../../.gitbook/assets/distr.png" alt=""><figcaption></figcaption></figure>
 
-### Count
+## Count
 
 * Affiche le nombre de [blocs](https://minecraft.fandom.com/fr/wiki/Blocs) d'un certain type dans votre sélection.
 * Utilisation : `//count <block>`
 
 <figure><img src="../../.gitbook/assets/count.png" alt=""><figcaption></figcaption></figure>
 
-### Size
+## Size
 
 * Affiche différentes mesures et autres informations sur votre sélection.
 * Utilisation : `//size [-c]`
@@ -38,7 +40,7 @@
 
 <figure><img src="../../.gitbook/assets/size (1).png" alt=""><figcaption></figcaption></figure>
 
-### Analyser un clipboard
+### Analyzing a clipboard <a href="#_analyzing_a_clipboard" id="_analyzing_a_clipboard"></a>
 
 *   Utilisation : `//size -c`
 
@@ -51,7 +53,7 @@
 
 <figure><img src="../../.gitbook/assets/clipboard analyse.png" alt=""><figcaption></figcaption></figure>
 
-### Analyser un schématique
+### Analyzing a schematic <a href="#_analyzing_a_schematic" id="_analyzing_a_schematic"></a>
 
 *   Utilisation : `//size -c`
 
